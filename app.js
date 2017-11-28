@@ -51,10 +51,8 @@ function formatDockerEvent(obj) {
 
 function makeBody(msg) {
 	return {
-    channel: "#notifications",
-    username: "dockerbot", 
+    username: "docker-alerts", 
     text: msg,
-    icon_emoji: ":ghost:"
   }
 }
 
